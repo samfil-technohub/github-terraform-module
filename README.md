@@ -49,7 +49,6 @@ module "xyz_ops" {
   # Note: repo name is interpolated from earlier created repository module. You may also pass the name thus: ("xyz-app")
   repository_permission = {
     (module.xyz.repo_name)        = "push"
-    (module.xyz_config.repo_name) = "push"
   }
   collaborator_repository_permission = [
     {
