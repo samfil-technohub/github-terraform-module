@@ -34,6 +34,7 @@ This is a submodule in the github-terraform-module which groups resources relate
 # Application
 module "xyz" {
   source                  = "github.com/samfil-technohub/github-terraform-module.git//repository"
+  version = "1.0.0"
   allow_push_for_apps     = []
   allow_push_for_users    = []
   approval_threshold      = null

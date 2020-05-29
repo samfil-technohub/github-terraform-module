@@ -18,6 +18,7 @@ This is a submodule in the github-terraform-module which groups resources relate
 # Operators
 module "xyz_ops" {
   source                = "github.com/samfil-technohub/github-terraform-module.git//people"
+  version = "1.0.0"
   team_name             = "xyz-ops"   # name of the team
   description           = "The Operators"
   privacy_status        = "secret"

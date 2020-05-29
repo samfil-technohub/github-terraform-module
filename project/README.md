@@ -14,6 +14,7 @@ This is a submodule in the github-terraform-module which groups resources relate
 # xyz
 module "xyz_project" {
   source = "github.com/samfil-technohub/github-terraform-module.git//project"
+  version = "1.0.0"
   repo_name = "xyz-app"     # name of the repository not url.
   project_columns = ["Do","Doing","Done"]
   issue_labels = [
