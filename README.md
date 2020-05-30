@@ -1,7 +1,7 @@
 ## Documentation
 
 This is a module that implements a great bulk of provisioning various Github resources - repository, teams, branches, webhook, projects, etc. It is sub-modular designed to allow for orchestrating resources which makes sense collectively and as well gives room to strip some overhead if the use case does not apply to the project.
-For instance, a user could choose to stand a repository with this module without the need for adding teams or instantiating project management if they do not deem so. Some can also be turned off if the user does not wish to activate them.
+For instance, a user could choose to stand a repository with this module without the need for adding teams or instantiating project management if they do not deem so. Some arguments can also be turned off if the user does not wish to activate them.
 
 ### **Usage**
 ---
